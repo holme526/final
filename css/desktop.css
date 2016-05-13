@@ -1,0 +1,287 @@
+
+
+
+/* ----------------- Start Grid for desktop screens ----------------- */
+
+h1 {
+  font-size: 100pt;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 100px;
+ }
+
+h2{
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  padding:30px;
+ }
+
+ h3 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+ }
+
+ h4 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+
+ }
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url('../images/breakup_title-01.jpg') repeat;
+    font-family:Georgia;
+    font-size: 34px;
+    letter-spacing:-1px;
+    height:5400px;
+    position:relative;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li {
+  float: left;
+  padding: 29px 100px 15px 100px;
+  font-size: 17px;
+}
+
+.nav {
+  z-index: 25;
+  position: fixed;
+  top: 738px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  color: white;
+  width: 1400px;
+  height: 80px;
+  background-color: #1a1a1a;
+}
+
+
+.title_page {
+  z-index: 30;
+  position: relative;
+  width: 1400px;
+  height: 1600px;
+
+  -background-size: cover;
+  -webkit-background-size: cover;
+ }
+
+
+
+ .denial {
+  height: 738px;
+  background-color: #1a1a1a;
+  -background-size: cover;
+  -webkit-background-size: cover;
+ }
+
+ .anger {
+  height: 738px;
+  background: url('../images/anger.jpg') no-repeat center;
+
+ }
+
+ .bargaining {
+  height: 738px;
+  background: url('../images/bargaining.jpg') no-repeat center;
+ }
+
+ .depression {
+  height: 738px;
+  background: url('../images/depression.jpg') no-repeat center;
+ }
+
+ .acceptance {
+  height: 738px;
+  background: url('../images/acceptance.jpg') no-repeat center;
+ }
+
+ #container {
+  width:348px;
+  height: 246px;
+  float: left;
+  position: block;
+  position: relative;
+ }
+
+ /* ------------front images ---------------*/
+
+.front {
+  position: absolute;
+  z-index: 10;
+}
+ 
+ .front1:hover, .front2:hover,  .front3:hover, .front4:hover, .front5:hover, .front6:hover, .front7:hover, .front8:hover, .front9:hover, .front10:hover, .front11:hover, .front12:hover {
+  background: transparent;
+
+ }
+
+.front1 {
+  background: url('../images/u2duo.jpg') no-repeat center;
+ }
+
+ .front2 {
+  background:url('../images/florenceduo.jpg') no-repeat center;
+ }
+
+ .front3 {
+  background:url('../images/zeppelinduo.jpg') no-repeat center;
+ }
+
+ .front4 {
+  background:url('../images/blindduo.jpg') no-repeat center;
+ }
+
+ .front5 {
+  background:url('../images/beatlesduo.jpg') no-repeat center;
+ }
+
+ .front6 {
+  background:url('../images/jacketduo.jpg') no-repeat center;
+ }
+
+ .front7 {
+  background:url('../images/beckduo.jpg') no-repeat center;
+ }
+
+.front8 {
+  background:url('../images/horsesduo.jpg') no-repeat center;
+ }
+
+.front9 {
+  background:url('../images/dylanduo.jpg') no-repeat center;
+ }
+
+ .front10 {
+  background:url('../images/solangeduo.jpg') no-repeat center;
+ }
+
+ .front11 {
+  background:url('../images/lcdduo.jpg') no-repeat center;
+ }
+
+ .front12 {
+  background:url('../images/boysduo.jpg') no-repeat center;
+ }
+
+ /* ------------back images ---------------*/
+
+ .back {
+  position: absolute;
+  z-index: 5;
+ }
+
+
+ .back1 {
+  background: url('../images/u2.jpg') no-repeat center;
+ }
+
+ .back2 {
+  background:url('../images/florence.jpg') no-repeat center;
+ }
+
+ .back3 {
+  background:url('../images/zeppelin.jpg') no-repeat center;
+ }
+
+ .back4 {
+  background:url('../images/blind.jpg') no-repeat center;
+ }
+
+ .back5 {
+  background:url('../images/beatles.jpg') no-repeat center;
+ }
+
+ .back6 {
+  background:url('../images/jacket.jpg') no-repeat center;
+ }
+
+ .back7 {
+  background:url('../images/beck.jpg') no-repeat center;
+ }
+
+.back8 {
+  background:url('../images/horses.jpg') no-repeat center;
+ }
+
+.back9 {
+  background:url('../images/dylan.jpg') no-repeat center;
+ }
+
+ .back10 {
+  background:url('../images/solange.jpg') no-repeat center;
+ }
+
+ .back11 {
+  background:url('../images/lcd.jpg') no-repeat center;
+ }
+
+ .back12 {
+  background:url('../images/boys.jpg') no-repeat center;
+ }
+
+
+
+.song {
+  z-index: 15;
+  position: absolute;
+  margin: auto;
+  width: 350;
+  height: 248;
+  opacity: 0;
+
+}
+
+.song:hover {
+  display: block;
+  opacity: 1;
+}
+
+.iframe{
+    z-index: 30px;
+}
+
+
+ #intro {
+  margin: auto 360px;
+  width: 700px;
+  height: 300px;
+  background-color: transparent;
+  position: absolute;
+ }
+
+ #arrow {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background: url('../images/arrow-01.png') no-repeat center;
+  left: 900px;
+  bottom: 400px;
+  -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+ }
+
+
